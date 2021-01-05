@@ -1,0 +1,41 @@
+# gitignore for C++
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Visual Studio Files
+Debug
+Release
+*.suo
+*.csproj.user
+*.vbproj.user
+ipch
+*sdf
+
+
+# Own
+./bin
+./bin-int
+
+*.exe
+*.out
+*.o
+
+/.vs
+
+
+# TODO MAke Premake
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
